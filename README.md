@@ -21,6 +21,7 @@ namespace ConsoleApp1
 ## 参考
 
 - [OSに標準付属のMSBuildツールでプロジェクトをビルドするには？](https://atmarkit.itmedia.co.jp/ait/articles/1505/13/news016.html)
+- [MSBuild の予約済みおよび既知のプロパティ](https://learn.microsoft.com/ja-jp/visualstudio/msbuild/msbuild-reserved-and-well-known-properties)
 
 ## おまけ
 

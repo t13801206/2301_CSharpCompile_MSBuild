@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build"
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- 略 -->
+
+  <Target Name="PrintProperties">
+    <!-- 予約済 -->
+    <Message Text="MSBuildBinPath=&quot;$(MSBuildBinPath)&quot;"/>
+    <!-- 既知 -->
+    <Message Text="MSBuildExtensionsPath=&quot;$(MSBuildExtensionsPath)&quot;"/>
+    <!-- 既知 -->
+    <Message Text="MSBuildExtensionsPath32=&quot;$(MSBuildExtensionsPath32)&quot;"/>
+    <!-- 既知 -->
+    <Message Text="MSBuildExtensionsPath64=&quot;$(MSBuildExtensionsPath64)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildLastTaskResult=&quot;$(MSBuildLastTaskResult)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildNodeCount=&quot;$(MSBuildNodeCount)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProgramFiles32=&quot;$(MSBuildProgramFiles32)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProjectDefaultTargets=&quot;$(MSBuildProjectDefaultTargets)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProjectDirectory=&quot;$(MSBuildProjectDirectory)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProjectDirectoryNoRoot=&quot;$(MSBuildProjectDirectoryNoRoot)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProjectExtension=&quot;$(MSBuildProjectExtension)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProjectFile=&quot;$(MSBuildProjectFile)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProjectFullPath=&quot;$(MSBuildProjectFullPath)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildProjectName=&quot;$(MSBuildProjectName)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildStartupDirectory=&quot;$(MSBuildStartupDirectory)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildThisFile=&quot;$(MSBuildThisFile)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildThisFileDirectory=&quot;$(MSBuildThisFileDirectory)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildThisFileDirectoryNoRoot=&quot;$(MSBuildThisFileDirectoryNoRoot)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildThisFileExtension=&quot;$(MSBuildThisFileExtension)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildThisFileFullPath=&quot;$(MSBuildThisFileFullPath)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildThisFileName=&quot;$(MSBuildThisFileName)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildToolsPath=&quot;$(MSBuildToolsPath)&quot;"/>
+    <!-- 予約済 -->
+    <Message Text="MSBuildToolsVersion=&quot;$(MSBuildToolsVersion)&quot;"/>
+  </Target>
+</Project>
